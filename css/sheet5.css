@@ -1,0 +1,27 @@
+.heading {
+  display: flex;
+  background-color: rgb(205, 205, 25);
+  border: 1.5px dotted black;
+  height: 600px;
+  width: 700px;
+  margin-top: 50px;
+  margin-left: 50px;
+  justify-content: center;
+}
+.sidenav a {
+  display: block;
+  background-color: white;
+  border-right: 10px solid black;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  width: 100px;
+}
+.Text {
+  color: rgb(100, 13, 68);
+}
+.sidenav a:hover {
+  color: rgb(100, 13, 68);
+}

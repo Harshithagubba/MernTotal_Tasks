@@ -1,0 +1,99 @@
+table,
+th,
+td {
+  background: rgb(107, 221, 221);
+  border-collapse: separate;
+  border: 2px solid black;
+}
+th,
+td {
+  text-align: justify;
+  padding: 8px;
+
+  border-radius: 34px;
+}
+table {
+  width: 50%;
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-top: 10px;
+}
+th {
+  text-align: center;
+}
+.box1 {
+  border-radius: 7px;
+  border: 3px solid rgb(184, 227, 120);
+  height: 45px;
+  width: 60px;
+}
+.box2 {
+  border-radius: 13px;
+  border: 3px solid rgb(184, 227, 120);
+  height: 45px;
+  width: 60px;
+}
+.box3 {
+  border-radius: 17px;
+  border: 3px solid rgb(184, 227, 120);
+  height: 45px;
+  width: 60px;
+}
+.class1 {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+.box4 {
+  border-radius: 13px;
+  border: 3px solid rgb(184, 227, 120);
+  height: 45px;
+  width: 60px;
+}
+.box5 {
+  border-radius: 0px;
+  border: 3px solid rgb(184, 227, 120);
+  height: 45px;
+  width: 60px;
+}
+.box6 {
+  border-radius: 18px;
+  border: 3px solid rgb(184, 227, 120);
+  height: 45px;
+  width: 60px;
+}
+.class2 {
+  display: flex;
+  justify-content: space-between;
+  width: 15%;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+.box7 {
+  height: 40px;
+  width: 60px;
+  border: 3px solid rgb(184, 227, 120);
+  border-radius: 50%;
+  margin-top: 5px;
+}
+.box8 {
+  border-radius: 00px;
+  border: 3px solid rgb(184, 227, 120);
+  height: 45px;
+  width: 60px;
+}
+.box9 {
+  border-radius: 5px 20px;
+  border: 3px solid rgb(184, 227, 120);
+  height: 45px;
+  width: 60px;
+}
+.class3 {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  margin-left: 35%;
+  margin-top: 20px;
+}

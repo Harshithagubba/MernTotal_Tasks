@@ -1,0 +1,45 @@
+.vertical {
+  background-color: aqua;
+  width: 200px;
+  overflow: hidden;
+}
+.vertical a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.vertical a:hover {
+  background-color: orange;
+  cursor: pointer;
+  color: azure;
+}
+.container {
+  border: 2px solid black;
+  border-radius: 0px;
+  margin: 20px;
+  justify-items: center;
+  width: fit-content;
+}
+.box {
+  border: 10px solid white;
+  border-radius: 0px;
+  width: fit-content;
+}
+.Horizontal {
+  background-color: rgb(185, 183, 183);
+  overflow: hidden;
+  display: flex;
+  width: fit-content;
+  justify-content: space-around;
+}
+.Horizontal a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+.Horizontal a:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
