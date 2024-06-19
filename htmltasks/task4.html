@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" , content="width=device-width , intial-scale = 1.0" />
+    <title>Task-4</title>
+    <style>
+      form {
+        margin-top: 15%;
+      }
+      label,
+      input,
+      select {
+        display: inline-block;
+        text-align: center;
+        height: 20px;
+        margin: 10px;
+      }
+
+      label {
+        width: 30%;
+        text-align: right;
+      }
+
+      label + input {
+        width: 30%;
+        margin: 0 30% 0 4%;
+      }
+      select {
+        margin-left: 4%;
+      }
+      button {
+        margin-left: 27%;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <label for="Name">Name:</label>
+      <input type="text" placeholder="Enter your name" id="Name" /><br />
+      <label for="username">username:</label>
+      <input
+        type="text"
+        placeholder="Enter your username"
+        id="username"
+      /><br />
+      <label for="Password"> Password:</label>
+      <input
+        type="password"
+        placeholder="Create password"
+        id="Password"
+      /><br />
+      <label for="Re password">Re password:</label>
+      <input
+        type="password"
+        placeholder="Re-enter password"
+        id="Re password"
+      /><br />
+      <label for="Address">Address</label>
+      <input type="text" placeholder="Enter your Address" id="Address" /><br />
+      <label for="Age">Age:</label>
+      <input type="number" placeholder="Enter your age" id="Age" /><br />
+      <label for="Gender">Gender:</label>
+      <select id="Gemder" name="Gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="3">Prefer not to say</option></select
+      ><br />
+      <button>Save</button>
+    </form>
+  </body>
+</html>
